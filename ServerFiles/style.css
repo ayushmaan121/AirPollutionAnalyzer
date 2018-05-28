@@ -1,0 +1,110 @@
+.box{
+	background-color: #88FE1F;
+	height: 200px;
+	line-height: 200px;
+	text-align: left;
+	vertical-align: ;
+	width: 100%;
+}
+
+.title_style{
+	color:#100680;
+	font-size: 110px;
+	font-family: Mina, san-serif;
+}
+.bar{
+	height: 40px;
+	background-color: #100680;
+	width: 100%;
+}
+.ul_style{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #100680;
+}
+.li_style > a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: Mina, san-serif;
+}
+.li_style > a:hover{
+	background-color: #88FE1F;
+}
+.li_style{
+	float: left;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #100680;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #88FE1F;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color: black;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: Mina, san-serif;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #88FE1F;
+    color:black;
+}	
+
+table, th#th1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-top: 2%;
+}
+th#th1 {
+    padding: 5px;
+    text-align: center;
+    background-color: #100680;
+    color:white;
+}
+table#t01 {
+    width: 60%;    
+    
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align:center;
+}
