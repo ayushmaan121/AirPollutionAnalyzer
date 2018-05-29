@@ -1,0 +1,2 @@
+The code in NodeMCUCodeWithGPS should be uploaded in NodeMCU using Arduino IDE. Libraries used can be found from other GITHUB repositories.
+For SERVER, put the "fonts" folder in the ServerFiles and upload it in the database. 
